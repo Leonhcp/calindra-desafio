@@ -49,7 +49,7 @@ Set Body to raw JSON and send an Array with all the adresses that will be sought
 
 ```
 
-Send and await for the response.
+Send and await for the response in JSON format.
 
 
 ## Authors
