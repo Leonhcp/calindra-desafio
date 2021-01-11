@@ -4,79 +4,58 @@ Project of a system with google maps API rest test.
 
 ## Getting Started
 
-First clone this paste into your computer (in case of clone repository) and type on the cmd terminal of the paste "npm i" to install all project's dependencies, after that to run the code type with "npm start", for the development start of the project.
+First clone this paste into your computer (in case of clone repository) and type on the cmd terminal of the paste "npm i" to install all project's dependencies, after that to run the code type "npm start", for the development start of the project.
 
 ### Prerequisites
 
 Node.js.
 Git (in case of clone repository).
+Postman or Insomnia(recommended), or any program that interact with HTTP-based APIs.
 
 ### Installing
 
 First in case of git clone create a paste, open the cmd terminal and type
 
 ```
-Give the example
+git clone https://github.com/Leonhcp/calindra-desafio.git
 ```
 
-And repeat
+If not (in case of compressed paste), unzip the past and start from where
+
+Insert in the cmd terminal:
 
 ```
-until finished
+npm i
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+And the start:
+
+```
+npm start
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Start the aplication, open Postman, or equivalent program, and put the URL GET"http://localhost:3000/geoloc".
 
-### Break down into end to end tests
+Set Body to raw JSON and send an array with all the adresses that will be search in the following format.
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
-Give an example
+
+{
+    "addresses": ["address 1", "address 2", "address 3", ..., "address n"]
+}
+
 ```
 
-## Deployment
+Send and await for the response.
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Leonardo Holanda** - [My Github](https://github.com/Leonhcp)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the ISC License.
