@@ -36,7 +36,7 @@ npm start
 
 ## Running the tests
 
-Start the aplication, open Postman, or equivalent program, and put the URL GET"http://localhost:3000/geoloc".
+Start the aplication, open Postman( or equivalent program) and put the URL GET"http://localhost:3000/geoloc".
 
 Set Body to raw JSON and send an Array with all the adresses that will be sought in the following format.
 
