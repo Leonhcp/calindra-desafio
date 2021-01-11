@@ -1,0 +1,26 @@
+{
+  "name": "calindra",
+  "version": "1.0.0",
+  "description": "Api de desafio backend para a calindra",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Leonardo Holanda",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parse": "^0.1.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "geolib": "^3.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
