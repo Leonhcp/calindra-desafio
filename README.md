@@ -4,7 +4,7 @@ Project of a system with google maps API rest test.
 
 ## Getting Started
 
-First clone this paste into your computer (in case of clone repository) and type on the cmd terminal of the paste "npm i" to install all project's dependencies, after that to run the code type "npm start", for the development start of the project.
+First clone this repository into your computer (in case of git clone) and type on the cmd terminal of the repository "npm i" to install all project's dependencies. After that, to run the code, type "npm start" for the development start of the project.
 
 ### Prerequisites
 
@@ -14,13 +14,13 @@ Postman or Insomnia(recommended), or any program that interact with HTTP-based A
 
 ### Installing
 
-First in case of git clone create a paste, open the cmd terminal and type
+First in case of git clone create a folder, open the cmd terminal and type:
 
 ```
 git clone https://github.com/Leonhcp/calindra-desafio.git
 ```
 
-If not (in case of compressed paste), unzip the past and start from where
+If not (in case of compressed folder), unzip the folder and start from here.
 
 Insert in the cmd terminal:
 
@@ -28,7 +28,7 @@ Insert in the cmd terminal:
 npm i
 ```
 
-And the start:
+And then start:
 
 ```
 npm start
@@ -38,7 +38,7 @@ npm start
 
 Start the aplication, open Postman, or equivalent program, and put the URL GET"http://localhost:3000/geoloc".
 
-Set Body to raw JSON and send an array with all the adresses that will be search in the following format.
+Set Body to raw JSON and send an Array with all the adresses that will be sought in the following format.
 
 
 ```
