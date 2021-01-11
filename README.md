@@ -1,4 +1,4 @@
-# Calindra test
+# Calindra Challenge
 
 Project of a system with google maps API rest test.
 
