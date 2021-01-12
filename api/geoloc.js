@@ -69,8 +69,6 @@ module.exports = (app) => {
         return 0;
       });
 
-      console.log(finalDistances);
-
       return res.status(200).send(finalDistances);
     } catch (e) {
       console.log(e);
