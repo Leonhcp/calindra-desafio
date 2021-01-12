@@ -33,7 +33,7 @@ And then start:
 ```
 npm start
 ```
-And put the .env archive in the project folder, if not the program will return an ERROR
+And put the .env archive in the project folder, if not the program will return an ERROR while running the tests. 
 
 ## Running the tests
 
