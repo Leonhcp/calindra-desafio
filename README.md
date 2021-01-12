@@ -1,6 +1,6 @@
 # Calindra Challenge
 
-Project of a system with google maps API rest test.
+Project of an API Rest with google maps.
 
 ## Getting Started
 
